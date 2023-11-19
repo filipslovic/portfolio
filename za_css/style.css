@@ -1,10 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,500;0,700;1,300;1,400&display=swap');
 
-h1{
-    color:rgb(214, 63, 63);
-}
 body
 {
     background-color:#333333;
     font-family:"Bai Jamjuree";
+}
+a{
+    text-decoration: none;
+    color:antiquewhite;
+    transition: all 0.4s ease;
+
+}
+
+a:hover
+{
+    color:rgb(230, 230, 38)
+}
+
+@media (min-width: 992px)
+{
+    .navbar
+    {
+        min-height: 100vh;
+        width:240px;
+        background:linear-gradient(#2e2d2dc2,#494646d7,rgba(82, 78, 78, 0.74))
+    }
 }
