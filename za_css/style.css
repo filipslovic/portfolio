@@ -26,3 +26,9 @@ a:hover
         background:linear-gradient(#2e2d2dc2,#494646d7,rgba(82, 78, 78, 0.74))
     }
 }
+.navbar .navlink
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
