@@ -69,5 +69,39 @@ h1,p
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.text-brand
+{
+    color: #FFEA00
+}
+
+.btn{
+    padding: 12px 28px;
+    font-weight: 700;
+    
+}
+
+btn-brand
+{
+    background-color: #FFEA00;
+}
+.custom-link
+{
+    font-weight: 700;
+    position: relative;
+}
+.custom-link::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #FFEA00;
+    position: absolute;
+    left:0;
+    top:110%;
+    transition: all 0.4s ease;
+}
+.custom-link:hover::after{
+    width: 100%;
 }
