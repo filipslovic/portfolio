@@ -105,3 +105,54 @@ btn-brand
 .custom-link:hover::after{
     width: 100%;
 }
+
+
+.usluga
+{
+    background-color: #4e4c4c9f;
+    border-radius:12px;
+}
+.shadow-effect
+{
+    transition: all 0.5s;
+
+}
+.shadow-effect:hover
+{
+    box-shadow: -6px 6px 0 0 #b6a703;
+
+}
+.las
+{
+    font-size: 1.5em;
+}
+.iconbox
+{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: #FFEA00;
+
+}
+
+.bela
+{
+    color:white;
+}
+
+/* Regular styles */
+
+/* For smaller screens */
+@media (max-width: 768px) {
+    /* Adjust the styles here for smaller screens */
+    .col-lg-8 {
+      width: 100%; /* Ensures it takes full width on smaller screens */
+      /* Other adjustments as needed */
+    }
+  
+    /* Adjust other elements as necessary */
+  }
+  
