@@ -26,16 +26,37 @@ a:hover
         background:linear-gradient(#2e2d2dc2,#494646d7,rgba(82, 78, 78, 0.74))
     }
 }
+
+/* Za manje ekrane */
+@media (max-width: 768px) {
+    .col-lg-8 {
+      width: 100%; /* promenjena širina za manje ekrane */
+      /* Ostala podešavanja prema potrebi */
+    }
+  }
+  
 .navbar .navlink
 {
+    
     font-weight: 700;
     text-transform: uppercase;
     color: white;
+    transition: all 2s ease;
+    transform-origin: center;
+    
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-    color: rgb(214, 214, 7);
+    
+    color: rgb(189, 189, 9);
+    
+    
 }
+
+p,h1,h2,h3,h4,h5,h6{
+    word-wrap:break-word;
+}
+
 
 
 .navbar-brand img
@@ -114,7 +135,7 @@ btn-brand
 }
 .shadow-effect
 {
-    transition: all 0.5s;
+    transition: all 0.5s ease;
 
 }
 .shadow-effect:hover
