@@ -286,6 +286,13 @@ btn-brand
     background-color: red;
     color: white;
   }
-  
+
+  #kontakt .form-control
+  {
+    background-color:#414040;
+    color: aliceblue;
+    border-color: #a19403;
+    
+  }
   
   
