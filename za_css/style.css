@@ -26,7 +26,22 @@ a:hover
         background:linear-gradient(#2e2d2dc2,#494646d7,rgba(82, 78, 78, 0.74))
     }
 }
-
+.btn
+{
+    padding:60px 50px;
+    font-weight: 900;
+    
+}
+.btn-brand
+{
+    background-color: #d3c207;
+    border-color:#FFEA00;
+}
+.btn:hover
+{
+    background-color:#414040;
+    color: white;
+}
 /* Za manje ekrane */
 @media (max-width: 768px) {
     .col-lg-8 {
@@ -75,6 +90,8 @@ p,h1,h2,h3,h4,h5,h6{
 #content-wrapper
 {
     padding-left:240px ;
+    display: flex;
+    flex-direction: column;
 }
 h1,p
 {
@@ -87,10 +104,12 @@ h1,p
     height: 100%;
     display:flex;
     flex-direction: column;
+    flex-wrap:wrap;
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: none;
+    overflow:none;
 }
 
 .text-brand
@@ -126,7 +145,10 @@ btn-brand
 .custom-link:hover::after{
     width: 100%;
 }
-
+.rounded
+{
+    border-radius: 35px;
+}
 
 .usluga
 {
@@ -140,7 +162,7 @@ btn-brand
 }
 .shadow-effect:hover
 {
-    box-shadow: -6px 6px 0 0 #b6a703;
+    box-shadow: -6px 6px 0 0 #a19403;
 
 }
 .las
@@ -176,4 +198,37 @@ btn-brand
   
     /* Adjust other elements as necessary */
   }
+  .projekat_slika
+  {
+    max-width: 100%; /* Postavljanje maksimalne širine slike */
+    height: auto; /* Omogućava očuvanje odnosa širine i visine slike */
+    border-radius: 20px;
+  }
   
+
+
+
+  .card-custom
+  {
+    background-color: #414040;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+  
+
+  .card-custom .card-custom-image
+  {
+    overflow:hidden;
+    border-radius: 20px;
+  }
+  .card-custom .card-custom-image
+  {
+    transition: all o.5s ease;
+
+  }
+  .card-custom:hover .card-custom-image img{
+    transform: scale(1.1);
+    
+
+  }
