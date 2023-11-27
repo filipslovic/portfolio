@@ -46,7 +46,7 @@ a:hover
 @media (max-width: 768px) {
     .col-lg-8 {
       width: 100%; /* promenjena širina za manje ekrane */
-      /* Ostala podešavanja prema potrebi */
+     
     }
   }
   
@@ -66,11 +66,9 @@ a:hover
     color: rgb(189, 189, 9);
     
     
+    
 }
 
-p,h1,h2,h3,h4,h5,h6{
-    word-wrap:break-word;
-}
 
 
 
@@ -210,10 +208,24 @@ btn-brand
 
   .card-custom
   {
+    height: 100%; /* Postavljanje fiksne visine */
+    
+    
     background-color: #414040;
     border-radius: 20px;
-    padding: 15px;
+    padding: 20px;
+    
   }
+  .card-custom:hover
+  {
+    background-color: #535252;
+    border-radius: 20px;
+    padding: 15px;
+    
+  }
+  
+
+  
   
   
 
@@ -232,3 +244,16 @@ btn-brand
     
 
   }
+
+  .polje
+  {
+    background-color: #464444;
+    border-radius: 15px;
+    padding: 10px;
+    
+  }
+  .nijansa
+  {
+    color: #d3c207;
+  }
+  
