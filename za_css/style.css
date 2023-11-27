@@ -256,4 +256,36 @@ btn-brand
   {
     color: #d3c207;
   }
+  .zvezda_true
+  {
+    size:16px;
+    color:#FFEA00;
+    background-color: none;
+  }
+
+  
+
+  .review
+  {
+    background-color: #555353;
+    border-radius: 15px;
+  }
+
+  .like, .dislike
+  {
+    background-color: bisque;
+    border-radius: 5px;
+  }
+  
+  .like:hover{
+    background-color: green;
+    color: white;
+  }
+
+  .dislike:hover{
+    background-color: red;
+    color: white;
+  }
+  
+  
   
